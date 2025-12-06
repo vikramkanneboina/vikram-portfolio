@@ -3,113 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikram Kanneboina - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vikram Kanneboina - Full Stack Developer</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6; 
+            color: #333; 
+        }
+        h1 { color: #007bff; margin-bottom: 5px; }
+        h2 { border-bottom: 2px solid #007bff; padding-bottom: 5px; margin-top: 30px; }
+        img { 
+            border-radius: 50%; 
+            width: 150px; 
+            height: 150px; 
+            float: right; 
+            margin-left: 20px;
+            object-fit: cover; 
+        }
+        .contact a { color: #007bff; text-decoration: none; }
+        .contact a:hover { text-decoration: underline; }
+        .download button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        .download button:hover { background: #0056b3; }
+        ul { margin-left: 20px; }
+        hr { margin-top: 40px; }
+    </style>
 </head>
-
 <body>
 
-<!-- ================= HEADER ================= -->
-<header class="hero">
-    <img src="images/profile.jpg" alt="Profile" class="profile-img">
+    <img src="images/profile.jpg" alt="Profile Image">
 
     <h1>Vikram Kanneboina</h1>
-    <p class="subtitle">Full Stack Developer | Java | Spring Boot | React | MySQL</p>
+    <p><strong>Full Stack Developer</strong></p>
 
-    <div class="links">
-        <a href="tel:+917995871021">📞 Call</a>
-        <a href="mailto:vk367768@gmail.com">📧 Email</a>
-        <a href="https://github.com/vikramkanneboina" target="_blank">💻 GitHub</a>
-        <a href="https://www.linkedin.com/in/vikramkanneboina" target="_blank">🔗 LinkedIn</a>
-    </div>
-</header>
-
-
-<!-- ================= ABOUT ================= -->
-<section class="section">
-    <h2>👋 About Me</h2>
-    <p>
-        Enthusiastic Full Stack Developer passionate about building scalable backend systems and modern web interfaces.
-        Experienced in Java, Spring Boot, React, REST APIs, and MySQL with hands-on project development.
+    <p class="contact">
+        Phone: <a href="tel:+917995871021">7995871021</a> |
+        Email: <a href="mailto:vk367768@gmail.com">vk367768@gmail.com</a> |
+        <a href="https://github.com/vikramkanneboina" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/vikramkanneboina" target="_blank">LinkedIn</a>
     </p>
-</section>
 
+    <h2>Summary</h2>
+    <p>
+        Enthusiastic Java Full-Stack Developer with hands-on experience in Spring Boot, React, REST APIs, 
+        and MySQL. Passionate about backend development, API building, and creating responsive UI.
+    </p>
 
-<!-- ================= SKILLS ================= -->
-<section class="section">
-    <h2>🛠 Skills</h2>
-    <ul class="skills-list">
-        <li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>MySQL</li>
-        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
-        <li>Git</li><li>Collections Framework</li><li>Multithreading</li>
+    <h2>Skills</h2>
+    <ul>
+        <li><strong>Languages:</strong> Java, JavaScript, C</li>
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+        <li><strong>Backend:</strong> Spring Boot, REST APIs</li>
+        <li><strong>Database:</strong> MySQL, H2</li>
+        <li><strong>Tools:</strong> Git, GitHub, Maven, Postman</li>
     </ul>
-</section>
 
+    <h2>Projects</h2>
 
-<!-- ================= PROJECTS ================= -->
-<section class="section">
-    <h2>🚀 Projects</h2>
+    <h3>Full-Stack Ecommerce Application</h3>
+    <a href="https://github.com/vikramkanneboina/EcommerceApp" target="_blank">View on GitHub</a>
+    <p>Developed an end-to-end web application using Spring Boot and React...</p>
 
-    <div class="project-card">
-        <h3>Full Stack Ecommerce Application</h3>
-        <p>Spring Boot backend + React frontend with real-time product management and H2 database.</p>
-        <a href="https://github.com/vikramkanneboina/EcommerceApp" target="_blank">🔗 GitHub</a>
-    </div>
+    <h3>Java Messaging Console Application</h3>
+    <a href="https://github.com/vikramkanneboina/JavamessagingApp" target="_blank">View on GitHub</a>
+    <p>Built a real-time console messaging platform using Java multithreading and collections framework.</p>
 
-    <div class="project-card">
-        <h3>Java Messaging Console App</h3>
-        <p>Multi-user chat system using OOP, Collections & Multithreading. Delivered 1000+ messages with 99% success rate.</p>
-        <a href="https://github.com/vikramkanneboina/JavamessagingApp" target="_blank">🔗 GitHub</a>
-    </div>
-</section>
+    <h2>Education</h2>
+    <ul>
+        <li><strong>B.Tech in IT</strong>, CMR Technical Campus (2021–2025)</li>
+        <li>Intermediate, Sri Chaitanya (2019–2021)</li>
+        <li>CBSE, Blooming Minds (2019)</li>
+    </ul>
 
-
-<!-- ================= RESUME ================= -->
-<section id="resume" class="resume-section">
-    <h2>📄 Resume</h2>
-
-    <div class="resume-container">
-        <img src="images/resume_thumbnail.jpg" alt="Resume Preview" class="resume-preview">
-
-        <div class="resume-content">
-            <p>Download my latest resume below:</p>
-
-            <a href="resume.pdf" download class="resume-btn">⬇ Download Resume</a>
-            <p class="update-label">Last Updated: Feb 2025</p>
-        </div>
-    </div>
-</section>
-
-
-<!-- ================= CERTIFICATIONS ================= -->
-<section class="section">
-    <h2>🎓 Certifications</h2>
-
-    <ul class="cert-list">
+    <h2>Certificates</h2>
+    <ul>
         <li>Oracle Java SE</li>
-        <li>JavaScript - W3Schools</li>
-        <li>React Developer - Meta Coursera</li>
-        <li>Git & GitHub - Udemy</li>
+        <li>Git & GitHub – Udemy</li>
+        <li>JavaScript – W3Schools</li>
+        <li>React – Meta Coursera</li>
     </ul>
-</section>
 
-
-<!-- ================= CONTACT ================= -->
-<section class="section">
-    <h2>📬 Contact</h2>
-    <p>If you'd like to connect or collaborate, feel free to reach out.</p>
-
-    <div class="links">
-        <a href="mailto:vk367768@gmail.com">📩 Email Me</a>
-        <a href="https://wa.me/917995871021" target="_blank">💬 WhatsApp</a>
+    <div class="download">
+        <a href="resume.pdf" download>
+            <button>Download Resume</button>
+        </a>
     </div>
-</section>
 
-
-<!-- ================= FOOTER ================= -->
-<footer>
-    <p>© 2025 Vikram Kanneboina | Portfolio Built with ❤️</p>
-</footer>
+    <hr>
+    <p style="text-align: center; font-size: 0.9em; color: #777;">
+        © 2025 Vikram Kanneboina | Portfolio Built with GitHub Pages
+    </p>
 
 </body>
 </html>
