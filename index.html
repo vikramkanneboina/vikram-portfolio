@@ -3,107 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikram Kanneboina - Full Stack Developer</title>
+    <title>Vikram Kanneboina | Full Stack Developer</title>
+
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            max-width: 800px; 
-            margin: 0 auto; 
-            padding: 20px; 
-            line-height: 1.6; 
-            color: #333; 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #fafafa;
+            color: #222;
         }
-        h1 { color: #007bff; margin-bottom: 5px; }
-        h2 { border-bottom: 2px solid #007bff; padding-bottom: 5px; margin-top: 30px; }
-        img { 
-            border-radius: 50%; 
-            width: 150px; 
-            height: 150px; 
-            float: right; 
-            margin-left: 20px;
-            object-fit: cover; 
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 50px 20px;
         }
-        .contact a { color: #007bff; text-decoration: none; }
-        .contact a:hover { text-decoration: underline; }
-        .download button {
+
+        img.profile {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #007bff;
+        }
+
+        h1 {
+            font-size: 34px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-top: 40px;
+            border-bottom: 3px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .resume-btn {
+            display: inline-block;
+            margin-top: 20px;
             background: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin-top: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 15px;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 16px;
         }
-        .download button:hover { background: #0056b3; }
-        ul { margin-left: 20px; }
-        hr { margin-top: 40px; }
+
+        .resume-btn:hover {
+            background: #0056b3;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            line-height: 1.7;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #eee;
+            font-size: 14px;
+        }
+
+        .social a {
+            margin: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
 
-    <img src="images/profile.jpg" alt="Profile Image">
+<div class="container">
+
+    <img src="images/profile.jpg" alt="Profile Picture" class="profile">
 
     <h1>Vikram Kanneboina</h1>
-    <p><strong>Full Stack Developer</strong></p>
+    <p style="font-size:18px;">Full Stack Developer | Java | Spring Boot | React</p>
 
-    <p class="contact">
-        Phone: <a href="tel:+917995871021">7995871021</a> |
-        Email: <a href="mailto:vk367768@gmail.com">vk367768@gmail.com</a> |
+    <div class="social">
+        <a href="mailto:vk367768@gmail.com">Email</a> |
+        <a href="tel:+917995871021">Phone</a> |
         <a href="https://github.com/vikramkanneboina" target="_blank">GitHub</a> |
         <a href="https://linkedin.com/in/vikramkanneboina" target="_blank">LinkedIn</a>
-    </p>
+    </div>
 
-    <h2>Summary</h2>
+    <a class="resume-btn" href="resume.pdf" download>Download Resume</a>
+
+    <h2>About</h2>
     <p>
-        Enthusiastic Java Full-Stack Developer with hands-on experience in Spring Boot, React, REST APIs, 
-        and MySQL. Passionate about backend development, API building, and creating responsive UI.
+        Full Stack Developer passionate about building scalable backend systems and clean user-friendly interfaces.
+        Skilled in Java, Spring Boot, React, REST APIs, and MySQL. I enjoy solving real-world problems and contributing
+        to impactful projects.
     </p>
 
     <h2>Skills</h2>
     <ul>
-        <li><strong>Languages:</strong> Java, JavaScript, C</li>
-        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
-        <li><strong>Backend:</strong> Spring Boot, REST APIs</li>
-        <li><strong>Database:</strong> MySQL, H2</li>
-        <li><strong>Tools:</strong> Git, GitHub, Maven, Postman</li>
-    </ul>
-
-    <h2>Projects</h2>
-
-    <h3>Full-Stack Ecommerce Application</h3>
-    <a href="https://github.com/vikramkanneboina/EcommerceApp" target="_blank">View on GitHub</a>
-    <p>Developed an end-to-end web application using Spring Boot and React...</p>
-
-    <h3>Java Messaging Console Application</h3>
-    <a href="https://github.com/vikramkanneboina/JavamessagingApp" target="_blank">View on GitHub</a>
-    <p>Built a real-time console messaging platform using Java multithreading and collections framework.</p>
-
-    <h2>Education</h2>
-    <ul>
-        <li><strong>B.Tech in IT</strong>, CMR Technical Campus (2021–2025)</li>
-        <li>Intermediate, Sri Chaitanya (2019–2021)</li>
-        <li>CBSE, Blooming Minds (2019)</li>
-    </ul>
-
-    <h2>Certificates</h2>
-    <ul>
-        <li>Oracle Java SE</li>
-        <li>Git & GitHub – Udemy</li>
-        <li>JavaScript – W3Schools</li>
-        <li>React – Meta Coursera</li>
-    </ul>
-
-    <div class="download">
-        <a href="resume.pdf" download>
-            <button>Download Resume</button>
-        </a>
-    </div>
-
-    <hr>
-    <p style="text-align: center; font-size: 0.9em; color: #777;">
-        © 2025 Vikram Kanneboina | Portfolio Built with GitHub Pages
-    </p>
-
-</body>
-</html>
+        <li>Java, JavaScript, C</li>
+        <li>Spring
