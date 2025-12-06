@@ -1,101 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikram Kanneboina - Full Stack Developer</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            max-width: 800px; 
-            margin: 0 auto; 
-            padding: 20px; 
-            line-height: 1.6; 
-            color: #333; 
-        }
-        h1 { color: #007bff; }
-        h2, h3 { color: #555; }
-        
-        /* Profile Image Styling */
-        img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            float: left;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            object-fit: cover;
-            transition: 0.3s ease;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
-        }
-        img:hover {
-            transform: scale(1.05);
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
-        }
-
-        ul { margin-left: 20px; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .clear { clear: both; }
-        .download { 
-            background: #f8f9fa; 
-            padding: 15px; 
-            border-left: 4px solid #007bff; 
-            margin: 20px 0; 
-            text-align: center; 
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikram Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+<header>
     <h1>Vikram Kanneboina</h1>
+    <p>Java Developer | DSA | Web Development</p>
+</header>
 
-    <p><strong>Full Stack Developer | Hyderabad, Telangana</strong></p>
-
+<section id="about">
+    <h2>About Me</h2>
     <p>
-        Phone: <a href="tel:+917995871021">7995871021</a> | 
-        Email: <a href="mailto:vk367768@gmail.com">vk367768@gmail.com</a> | 
-        <a href="https://github.com/vikramkanneboina">GitHub</a> | 
-        <a href="https://www.linkedin.com/in/vikramkanneboina">LinkedIn</a>
+        I am a passionate software developer focused on Java, Data Structures, 
+        Algorithms, and building real projects. I enjoy learning and applying new 
+        technologies to solve logical problems efficiently.
     </p>
+</section>
 
-    <!-- FIXED IMAGE PATH -->
-    <img src="profile.jpg" alt="Profile Photo">
-
-    <div class="clear"></div>
-
-    <h2>Summary</h2>
-    <p>Enthusiastic Java Full-Stack Developer with hands-on experience building end-to-end web applications using Spring Boot, React, and REST APIs...</p>
-
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Programming Languages:</strong> Java, JavaScript, C</li>
-        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React, Bootstrap</li>
-        <li><strong>Backend & Frameworks:</strong> Spring Boot, Node.js, Express.js</li>
-        <li><strong>Database:</strong> MySQL, H2 Database</li>
-        <li><strong>Tools:</strong> Git, GitHub, Maven, Postman</li>
-        <li><strong>Soft Skills:</strong> Problem Solving, Leadership</li>
-    </ul>
-
+<section id="projects">
     <h2>Projects</h2>
 
-    <h3>Full-Stack Ecommerce Application</h3>
-    <p><a href="https://github.com/vikramkanneboina/EcommerceApp">GitHub</a> | 
-       <a href="https://my-full-stack-project-rose.vercel.app">Live Demo</a>
-    </p>
+    <div class="project">
+        <h3>Banking Application</h3>
+        <p>Console-based Java app supporting deposit, withdraw & transaction history.</p>
+        <a href="https://github.com/vikramkanneboina/banking-app" class="btn">Source Code</a>
+    </div>
 
+    <div class="project">
+        <h3>Student Management System</h3>
+        <p>Record management system using CRUD operations and file handling in Java.</p>
+        <a href="https://github.com/vikramkanneboina/Student-Management" class="btn">Source Code</a>
+    </div>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built using HTML & CSS and hosted on GitHub Pages.</p>
+        <a href="https://github.com/vikramkanneboina/vikram-portfolio" class="btn">Source Code</a>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
     <ul>
-        <li>Developed RESTful APIs with Spring Boot and integrated with frontend.</li>
-        <li>Resolved CORS, implemented authentication, and created dynamic UI.</li>
+        <li>Java</li>
+        <li>DSA</li>
+        <li>HTML & CSS</li>
+        <li>Git & GitHub</li>
     </ul>
+</section>
 
-    <h3>Java Messaging Console Application</h3>
-    <p><a href="https://github.com/vikramkanneboina/JavamessagingApp">GitHub</a></p>
-    <ul>
-        <li>Built real-time messaging using multithreading and collections.</li>
-        <li>Included registration, login system and secure data handling.</li>
-    </ul>
+<footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/vikramkanneboina" target="_blank">GitHub</a> |
+    <a href="mailto:vikram@gmail.com">Email</a>
+</footer>
 
-    <h2>Education</h2>
-    <ul>
-        <li><strong>B.Tech IT</strong>, CMR Tech
+</body>
+</html>
