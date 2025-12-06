@@ -1,102 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikram Kanneboina - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
+<!-- ================= HEADER ================= -->
+<header class="hero">
+    <img src="images/profile.jpg" alt="Profile" class="profile-img">
+
     <h1>Vikram Kanneboina</h1>
-    <p>Full Stack Developer | Java | DSA</p>
+    <p class="subtitle">Full Stack Developer | Java | Spring Boot | React | MySQL</p>
+
+    <div class="links">
+        <a href="tel:+917995871021">📞 Call</a>
+        <a href="mailto:vk367768@gmail.com">📧 Email</a>
+        <a href="https://github.com/vikramkanneboina" target="_blank">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/vikramkanneboina" target="_blank">🔗 LinkedIn</a>
+    </div>
 </header>
 
-<section id="contact" style="width:80%; margin:auto; padding:10px 0;">
+
+<!-- ================= ABOUT ================= -->
+<section class="section">
+    <h2>👋 About Me</h2>
     <p>
-        Phone: <a href="tel:+917995871021">7995871021</a> |
-        Email: <a href="mailto:vk367768@gmail.com">vk367768@gmail.com</a> |
-        <a href="https://github.com/vikramkanneboina" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/vikramkanneboina" target="_blank">LinkedIn</a>
+        Enthusiastic Full Stack Developer passionate about building scalable backend systems and modern web interfaces.
+        Experienced in Java, Spring Boot, React, REST APIs, and MySQL with hands-on project development.
     </p>
 </section>
 
-<section id="about" style="width:80%; margin:auto;">
-    <img src="profile.jpg" alt="Profile Photo" style="border-radius:50%; width:140px; height:140px; float:left; margin-right:18px; object-fit:cover; box-shadow:0 6px 18px rgba(0,0,0,0.12);" />
-    <h2>About Me</h2>
-    <p>Enthusiastic Java Full-Stack Developer with hands-on experience building end-to-end web applications using Spring Boot, React, and REST APIs. Proven expertise in database design (MySQL/H2), real-time communication, and resolving CORS issues for smooth integration. Eager to contribute clean architecture and problem-solving skills to a strong engineering team.</p>
-    <div style="clear:both;"></div>
-</section>
 
-<section id="skills" style="width:80%; margin:auto;">
-    <h2>Skills</h2>
-    <ul>
-        <li><strong>Languages:</strong> Java, JavaScript, C</li>
-        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React, Bootstrap</li>
-        <li><strong>Backend:</strong> Spring Boot, Node.js, Express.js, REST APIs</li>
-        <li><strong>Databases:</strong> MySQL, H2</li>
-        <li><strong>Tools:</strong> Git, GitHub, Maven, Postman</li>
+<!-- ================= SKILLS ================= -->
+<section class="section">
+    <h2>🛠 Skills</h2>
+    <ul class="skills-list">
+        <li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>MySQL</li>
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
+        <li>Git</li><li>Collections Framework</li><li>Multithreading</li>
     </ul>
 </section>
 
-<section id="projects" style="width:80%; margin:auto;">
-    <h2>Projects</h2>
 
-    <div class="project">
-        <h3>Full-Stack Ecommerce Application</h3>
-        <p><a href="https://github.com/vikramkanneboina/EcommerceApp" target="_blank">GitHub</a></p>
-        <ul>
-            <li>Built Spring Boot backend with RESTful APIs for product catalog and cart functionality (H2 DB).</li>
-            <li>Integrated frontend via Fetch API and implemented responsive UI.</li>
-            <li>Handled CORS and API authentication for secure integration.</li>
-        </ul>
+<!-- ================= PROJECTS ================= -->
+<section class="section">
+    <h2>🚀 Projects</h2>
+
+    <div class="project-card">
+        <h3>Full Stack Ecommerce Application</h3>
+        <p>Spring Boot backend + React frontend with real-time product management and H2 database.</p>
+        <a href="https://github.com/vikramkanneboina/EcommerceApp" target="_blank">🔗 GitHub</a>
     </div>
 
-    <div class="project">
-        <h3>Java Messaging Console Application</h3>
-        <p><a href="https://github.com/vikramkanneboina/JavamessagingApp" target="_blank">GitHub</a></p>
-        <ul>
-            <li>Console-based multi-user messaging platform using multithreading and collections.</li>
-            <li>Implemented registration/login, message delivery tracking, and search filters.</li>
-        </ul>
-    </div>
-
-    <div class="project">
-        <h3>Portfolio Website</h3>
-        <p><a href="https://github.com/vikramkanneboina/vikram-portfolio" target="_blank">Source Code</a></p>
-        <ul><li>Hosted on GitHub Pages; built with clean HTML/CSS and responsive layout.</li></ul>
+    <div class="project-card">
+        <h3>Java Messaging Console App</h3>
+        <p>Multi-user chat system using OOP, Collections & Multithreading. Delivered 1000+ messages with 99% success rate.</p>
+        <a href="https://github.com/vikramkanneboina/JavamessagingApp" target="_blank">🔗 GitHub</a>
     </div>
 </section>
 
-<section id="education" style="width:80%; margin:auto;">
-    <h2>Education</h2>
-    <ul>
-        <li><strong>B.Tech — Information Technology</strong>, CMR Technical Campus, Hyderabad (2021–2025) — CGPA: 6.88</li>
-        <li><strong>Intermediate (XII)</strong>, Sri Chaitanya Junior College — 96.2%</li>
-        <li><strong>10th (CBSE)</strong>, Blooming Minds Central School — 84.8%</li>
+
+<!-- ================= RESUME ================= -->
+<section id="resume" class="resume-section">
+    <h2>📄 Resume</h2>
+
+    <div class="resume-container">
+        <img src="images/resume_thumbnail.jpg" alt="Resume Preview" class="resume-preview">
+
+        <div class="resume-content">
+            <p>Download my latest resume below:</p>
+
+            <a href="resume.pdf" download class="resume-btn">⬇ Download Resume</a>
+            <p class="update-label">Last Updated: Feb 2025</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section">
+    <h2>🎓 Certifications</h2>
+
+    <ul class="cert-list">
+        <li>Oracle Java SE</li>
+        <li>JavaScript - W3Schools</li>
+        <li>React Developer - Meta Coursera</li>
+        <li>Git & GitHub - Udemy</li>
     </ul>
 </section>
 
-<section id="certificates" style="width:80%; margin:auto;">
-    <h2>Certificates</h2>
-    <ul>
-        <li>Oracle Certified Associate (OCA) — Java SE</li>
-        <li>JavaScript — W3Schools</li>
-        <li>Git & GitHub — Udemy</li>
-        <li>React — Meta (Coursera)</li>
-    </ul>
-</section>
 
-<section id="download" style="width:80%; margin:auto;">
-    <div class="download">
-        <a href="Vikram_Kanneboina_Resume_2025.pdf" download><strong>⬇ Download Resume (PDF)</strong></a>
+<!-- ================= CONTACT ================= -->
+<section class="section">
+    <h2>📬 Contact</h2>
+    <p>If you'd like to connect or collaborate, feel free to reach out.</p>
+
+    <div class="links">
+        <a href="mailto:vk367768@gmail.com">📩 Email Me</a>
+        <a href="https://wa.me/917995871021" target="_blank">💬 WhatsApp</a>
     </div>
 </section>
 
-<footer style="width:80%; margin:auto; text-align:center; padding:18px 0; color:#666;">
-    <hr />
-    <p>© 2025 Vikram Kanneboina — Built with GitHub Pages</p>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2025 Vikram Kanneboina | Portfolio Built with ❤️</p>
 </footer>
 
 </body>
